@@ -31,4 +31,9 @@ Page {
             }
         }
     }
+    onStatusChanged: {
+        if (status === PageStatus.Active) {
+            pageStack.pushAttached(Qt.resolvedUrl("SpriteSequencePage.qml"));
+        }
+    }
 }

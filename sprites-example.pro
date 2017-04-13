@@ -27,4 +27,5 @@ INSTALLS += images
 
 DISTFILES += \
     qml/components/CustomSprite.qml \
-    qml/pages/CustomSpritePage.qml
+    qml/pages/CustomSpritePage.qml \
+    qml/pages/SpriteSequencePage.qml
